@@ -629,8 +629,11 @@ line-height: 40px;
     }
     
     .footer-contact{
-       line-height: 40px;
-       font-weight: bold;
+            line-height: 40px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+         
     }
     
     
@@ -744,6 +747,8 @@ line-height: 40px;
     .footer-contact{
        line-height: 40px;
        font-weight: bold;
+       text-decoration: none;
+       color: white;
     }
     
     
