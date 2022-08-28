@@ -647,4 +647,116 @@ line-height: 40px;
 }
 
 
+/*media iphone*/
 
+@media (max-width:416px){
+    /*galeria de imagens*/
+    
+    
+    .grid{
+        margin-top: 10px;
+        
+        display: grid;
+        grid-template-columns: repeat(3, 120px);
+        justify-content: center;
+        align-content: center;
+        height: 90vh;
+        margin-left: 0;
+        margin-bottom: 0px;
+        
+    }
+    
+    .grid img{
+        width: 120px;
+        height: 120px;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+    
+    #lightbox{
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.8);
+        display: none;
+    }
+    
+    #lightbox.active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    #lightbox img {
+        max-width: 90%;
+        max-height: 80%;
+        padding: 4px;
+        background-color: black;
+        border: 2px solid white;
+    }
+    
+    /*footer*/
+    
+    footer{
+        width: 100vw;
+        height: 250px;
+        box-shadow: 5px -10px 10px rgba(0, 0, 0, 0.123);
+    }
+    
+    footer .main{
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: 250px;
+        background-color: rgb(163, 165, 163);
+        padding: 20px 10 px;
+        margin-bottom: 0;
+       
+        
+    }
+    
+    .geral{
+        max-width: 100vw;
+        min-width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        padding-top: 20px;
+        color: white;
+        
+    }
+    
+    .sitemap{
+    line-height: 40px;
+    
+    }
+    
+    .sitemap a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .footer-contact{
+       line-height: 40px;
+       font-weight: bold;
+    }
+    
+    
+    .social-icons{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .social{
+        line-height: 40px;
+    }
+    
+}
+
+}
